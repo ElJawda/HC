@@ -5,8 +5,8 @@ android {
         config {
             keyAlias 'hc'
             keyPassword 'hc123456789'
-
-            storeFile file('E:/keystore/hc.jks')
+            storeFile file('E:/teeeeee/keystore/hc.jks')
+          //  storeFile file('E:/keystore/hc.jks')
             storePassword 'hc123456789'
         }
     }
