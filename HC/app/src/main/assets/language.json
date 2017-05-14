@@ -1,0 +1,132 @@
+[
+  {
+    "ID": 1,
+    "Name": "العربية",
+    "Code": "00001",
+    "IsRequired": true,
+    "ImageName": "00001",
+    "CreateDate": null,
+    "UpdateDate": null,
+    "ModifiedByID": null
+  },
+  {
+    "ID": 2,
+    "Name": "الإنجليزية",
+    "Code": "00002",
+    "IsRequired": false,
+    "ImageName": "00002",
+    "CreateDate": null,
+    "UpdateDate": null,
+    "ModifiedByID": null
+  },
+  {
+    "ID": 3,
+    "Name": "الهندية",
+    "Code": "00003",
+    "IsRequired": true,
+    "ImageName": "00003",
+    "CreateDate": null,
+    "UpdateDate": null,
+    "ModifiedByID": null
+  },
+  {
+    "ID": 4,
+    "Name": "اردو",
+    "Code": "00004",
+    "IsRequired": true,
+    "ImageName": "00003",
+    "CreateDate": null,
+    "UpdateDate": null,
+    "ModifiedByID": null
+  },
+  {
+    "ID": 5,
+    "Name": "بنغالية",
+    "Code": "00005",
+    "IsRequired": true,
+    "ImageName": "00003",
+    "CreateDate": null,
+    "UpdateDate": null,
+    "ModifiedByID": null
+  },
+  {
+    "ID": 6,
+    "Name": "تاميلية",
+    "Code": "00006",
+    "IsRequired": true,
+    "ImageName": "00003",
+    "CreateDate": null,
+    "UpdateDate": null,
+    "ModifiedByID": null
+  },
+  {
+    "ID": 7,
+    "Name": "تاغالو",
+    "Code": "00007",
+    "IsRequired": true,
+    "ImageName": "00003",
+    "CreateDate": null,
+    "UpdateDate": null,
+    "ModifiedByID": null
+  },
+  {
+    "ID": 8,
+    "Name": "الإندونيسية",
+    "Code": "00008",
+    "IsRequired": true,
+    "ImageName": "00003",
+    "CreateDate": null,
+    "UpdateDate": null,
+    "ModifiedByID": null
+  },
+  {
+    "ID": 9,
+    "Name": "البنجابية",
+    "Code": "00009",
+    "IsRequired": true,
+    "ImageName": "00003",
+    "CreateDate": null,
+    "UpdateDate": null,
+    "ModifiedByID": null
+  },
+  {
+    "ID": 10,
+    "Name": "البشتو",
+    "Code": "00010",
+    "IsRequired": true,
+    "ImageName": "00003",
+    "CreateDate": null,
+    "UpdateDate": null,
+    "ModifiedByID": null
+  },
+  {
+    "ID": 11,
+    "Name": "التاميلية",
+    "Code": "00011",
+    "IsRequired": true,
+    "ImageName": "00003",
+    "CreateDate": null,
+    "UpdateDate": null,
+    "ModifiedByID": null
+  },
+  {
+    "ID": 12,
+    "Name": "التركية",
+    "Code": "00012",
+    "IsRequired": true,
+    "ImageName": "00003",
+    "CreateDate": null,
+    "UpdateDate": null,
+    "ModifiedByID": null
+  },
+  {
+    "ID": 13,
+    "Name": "أخرى",
+    "Code": "00013",
+    "IsRequired": true,
+    "ImageName": "00003",
+    "CreateDate": null,
+    "UpdateDate": null,
+    "ModifiedByID": null
+  }
+]

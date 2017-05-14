@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">استبيان  المجلس الصحى  السعودى </string>
+    <string name="base_url">http://www.eservices.shc.gov.sa/HealthSystemResponseApi/api/</string>
+    <string name="font_name">GE_Dinar_One_Medium.otf</string>
+    <string name="font_name_number">Asimov.otf</string>
+    <string name="radio_test_f">افضل 15 موقع تورنت لتحميل افلام تورنت , مسلسلات برامج تورنت, العاب تورنت, موسيقى تورنت , كتب تورنت Top best torrent sites.</string>
+    <string name="radio_test">Now for make the buttons single selectable, just write the code for buttons onCheckedChanged listener and make other buttons unchecked.
+Like this:</string>
+
+    <!--project start from  here-->
+    <string name="cat_f_m"> رب أسرة وربة أسرة </string>
+    <string name="cat_f"> رب أسرة فقط </string>
+    <string name="cat_m"> ربة أسرة فقط</string>
+    <string name="cat_f_mm"> أكثر من رب أسرة/ربة أسرة </string>
+    <string name="next">التالى  </string>
+    <string name="section6100_header">
+الأسئلة التالية خاصة بمدى السرعة في الحصول على الخدمة الصحية خلال الإثني عشر شهر الماضية
+    </string>
+
+    <string name="section6100h"> <u> الاهتمام الفوري </u> </string>
+
+    <string name="section6000_header">
+الآن أحب أن أسألك عن تلقيك الرعاية في العيادة الخارجية سواء كانت العيادة في  مستشفى، مركز صحي، مستوصف، عيادة خاصة ولكنك لم تنوم لمدة ولو لليلة واحدة
+    </string>
+
+    <string name="section6000h"> <u> العيادات الخارجية  </u> </string>
+    <string name="remember_me">تذكرنى  </string>
+    <string name="login">   تسجيل  دخول  </string>
+    <string name="coun_number">   الرجاء إدخال رقم الهوية  </string>
+    <string name="coun_password">  الرجاء إدخال كلمة المرور   </string>
+    <string name="add_field">  الرجاء ادخال  الحقول   </string>
+    <string name="false_data">  الرجاء التأكد  من  البيانات  الخاصه بك      </string>
+
+    <string name="section6122_header">
+    الأسئلة التالية خاصة بمدى مشاركتك في اتخاذ القرارات الخاصة عند طلب الخدمة الصحية في العيادات الخارجية خلال الاثني عشر شهراُ الماضية
+
+    </string>
+
+    <string name="section6122h"> <u>  الاستقلالية:  </u> \n
+الأسئلة التالية خاصة بمدى مشاركتك في اتخاذ القرارات الخاصة عند طلب الخدمة الصحية فى  العيادات  الخارجية
+ </string>
+    <string name="section6122hh2">الاختيار: الأسئلة التالية خاصة بمدى تمتعك في الحرية في اختيار مقدم الخدمة الصحية في العيادات الخارجية خلال الاثني عشر شهراُ الماضية</string>
+    <string name="section6122hh3">جودة الظروف المحيطة بمكان تقديم الخدمات الصحية:  \n  الأسئلة التالية تتعلق ببيئة العيادات الخارجية التي تذهب اليها للحصول على الخدمة الصحية </string>
+
+    <string name="section6122hh"> <u> الاختيار:  </u> \n   الأسئلة التالية خاصة بمدى تمتعك في الحرية في اختيار مقدم الخدمة الصحية في العيادات الخارجية  </string>
+
+
+    <string name="section6200h">  \n جميع الأسئلة التالية خاصة بالرعاية الصحية التي تتلقاها في المنزل</string>
+    <string name="section6200h1">الاهتمام الفوري :  \n الأسئلة التالية خاصة بمدى السرعة في الحصول على الرعاية الصحية المنزلية
+ </string>
+    <string name="section6000ht">الاهتمام الفوري :  \n الأسئلة التالية خاصة بمدى السرعة في الحصول على الخدمة الصحية </string>
+
+    <string name="section6200hh">الاتصال:  \n مجموعة الاسئلة التالية خاصة بكيفية التعامل مع مقدمي الخدمة الصحية المنزلية</string>
+    <string name="accept">بدء</string>
+
+    <string name="section6230">
+        الاستقلالية: \n الأسئلة التالية خاصة بمدى مشاركتك في اتخاذ القرارات الخاصة بالعلاج الذي تلقيته في المنزل خلال الاثني عشر شهراً
+    </string>
+
+
+    <string name="section6230h">
+سرية المعلومات: \n هذه الأسئلة خاصة بتجربتك مع الخدمات الصحية المنزلية فيما يتعلق بسرية المعلومات الشخصية    </string>
+    <string name="section6230hh"> الاختيار: \n الأسئلة التالية خاصة بمدى تمتعك في الحرية في اختيار مقدم الخدمة الصحية المنزلية
+</string>
+
+    <string name="section6300h">   التنويم  :   \n  الآن، أود أن أطرح عليك بعض الأسئلة تتعلق بالرعاية الصحية عند التنويم في المستشفيات (ولو لليلة واحدة)
+</string>
+    <string name="section6400h">ا
+</string>
+    <string name="section6400b">
+       \n <u>جوانب أخرى من النظام الصحي  </u>
+     هل تمت معاملتك بشكل سيء بسبب ما يلي (أذكر كافة النقاط للمستجوب)
+    </string>
+    <string name="section5000h"><u> الحالة الصحية  </u></string>
+    <string name="section6200">
+        الكرامة: \n هذه الأسئلة خاصة بمعيار التعامل معك بما يحفظ الكرامة عند طلب الخدمة الصحية المنزلية
+
+ </string>
+
+    <string name="sample_string">الحالة الصحية  \n جوانب أخرى من النظام الصحي</string>
+
+    <string name="section6110">
+    الكرامة :   \n هذه الأسئلة خاصة بمعيار التعامل معك بما يحفظ الكرامة عند طلبك الخدمة الصحية.
+
+</string>
+    <string name="section6120">
+        الاتصال:\n مجموعة الأسئلة التالية خاصة بنوعية المعاملة التي تلقيتها عند طلب الخدمة الصحية في العيادات الخارجية
+</string>
+    <string name="sec630">
+   الاستقلالية:  \n الأسئلة التالية خاصة بمدى مشاركتك في اتخاذ القرارات الخاصة بالعلاج الذي تلقيته في المنزل
+    </string>
+    <string name="section6000h1">العيادات الخارجية </string>
+    <string name="section6000"> الآن أحب أن أسألك عن تلقيك الرعاية في العيادة الخارجية سواء كانت العيادة في  مستشفى، مركز صحي، مستوصف، عيادة خاصة ولكنك لم تنوم لمدة ولو لليلة واحدة   </string>
+    <string name="section6000p1">  الخارجية سواء كانت العيادة في  مستشفى، مركز صحي، مستوصف </string>
+    <string name="section6000p2">   عيادة خاصة ولكنك لم تنوم لمدة ولو لليلة واحدة </string>
+    <string name="select_region">    الرجاء اختيار المنطقة </string>
+    <string name="select_city">    الرجاء اختيار المدينة </string>
+    <string name="select_region_first">    الرجاء اختيار المنطقة اولا </string>
+    <string name="select_numerical_city">    الرجاء اختيار منطيقة  العدد  </string>
+    <string name="select_city_first">    الرجاء اختيار  المدين اولا </string>
+    <string name="back">   العودة  </string>
+    <string name="section_4000">  البيانات الاجتماعية السكانية  </string>
+    <string name="section_4009"> هل تستطيع الوصول إلى الخدمات التالية، إذا لزم الأمر( يتم سؤال الحالة عن جميع الفقرات التالية ) </string>
+    <string name="section_4011">  هل تستطيع الحصول على الرعاية الصحية من القطاعات التالية: (يتم سؤال الحالة عن جميع الفقرات التالية)  </string>
+    <string name="section4014">
+    من خلال تعاملك مع المرافق الصحية هل واجهتك أي من الصعوبات التالية:  \n
+(يتم سؤال الحالة عن جميع الفقرات التالية)
+
+</string>
+    <string name="logo_text">دراسة مسحية لقياس استجابة النظام الصحي في المملكة</string>
+    <string name="edit_hint">  الرجاء ادخال  القيمة  المحددة  </string>
+    <string name="region">  المنطقة : </string>
+    <string name="governrment">المحافظة :</string>
+    <string name="num_region">  المنطقة  العد : </string>
+    <string name="family"> الأسرة :  </string>
+    <string name="select_family">  الرجاء اختيار الأسرة   </string>
+    <string name="select_region_1">  الرجاء اختيار  المنطقة العد </string>
+
+
+    <string name="center">  اسم  المركز :  </string>
+    <string name="mashmol">المشمول :</string>
+    <string name="hara">  رقم الحارة - الحارة  : </string>
+    <string name="dirtrict"> القطاع  : </string>
+
+    <string name="block"> البلوك : </string>
+    <string name="building">المبنى :</string>
+    <string name="home"> السكن : </string>
+    <string name="section5000">أريد أن أسألك عن عدد من الأمراض  التي ربما حدثت لك خلال السنة الماضية أو أكثر.
+هل أصبت أو لديك  أي مما يلي:
+</string>
+    <string name="location"> الموقع :</string>
+    <string name="section6200t">الرعاية المنزلية\nجميع الأسئلة التالية خاصة بالرعاية الصحية التي تتلقاها في المنزل( الرعاية المنزلية تعني العناية المساندة التي تتوفر في المنازل)</string>
+    <string name="section6140">السرية في المعلومات :  \n هذه الأسئلة خاصة بمدى التعامل بسرية حيال المعلومات الخاصة عند طلبك الخدمة الصحية في العيادات الخارجية </string>
+    <string name="section_6500"> استخدام الرعاية الصحية\nسوف أذكر لك أماكن مختلفة تقدم الخدمات الصحية، كم مرة تقريبا زرت كل واحد منهم خلال السنةالماضية  </string>
+    <string name="sectio_6600">في الفقرات التالية بناء على رأيك الشخصي أعطي تقييم للأهمية من صفر (0) إلى (10) لكل محور من محاور \nاستجابة النظام الصحي ، علما أن (0) يعني غير مهم على الإطلاق و (10) في غاية الأهمية،</string>
+    <string name="sample_title">معلومات أخذ العينات </string>
+    <string name="sample_sub_title">معلومات الأفراد المؤهلين للإجابة على الاستبيان وهم رب الأسرة، ربة الأسرة، في حال كون المنزل سكن لأكثر من أسرة أو كون المنزل سكن لمجموعة لا تكون أسرة (لا يوجد رب أو ربة أسرة) فيتم تعبئة أسماؤهم واختيار الحالة بطريقة عشوائية.</string>
+
+    <!--agreement section-->
+    <!--0991-->
+    <string name="household_title">0991 هل يوجد في المنزل رب أسرة، ربة أسرة </string>
+    <string name="household_0">يوجد رب أسرة وربة أسرة</string>
+    <string name="household_1">يوجد رب أسرة فقط</string>
+    <string name="household_2">توجد ربة أسرة فقط</string>
+    <string name="household_3">يوجد أكثر من رب أسرة / ربة أسرة</string>
+    <string name="household_4">المنزل عبارة عن أفراد بالغين مستقلين ( ليست أسرة )</string>
+
+    <!--0992-->
+    <string name="title_0992">0992 المنزل الذي تزوره يحتوي على رب أسرة وربة أسرة، على المستقصي اختيار أحدهما عشوائيا</string>
+    <string name="t_0992_0">رب أسرة</string>
+    <string name="t_0992_1">ربة أسرة</string>
+
+    <!--0993-->
+    <string name="title_0993">0993 سجل أسماء من تنطبق عليه شروط الاختيار واختر واحد عشوائيا</string>
+
+    <string name="t_0994">0994 تم اختيار الشخص رقم </string>
+
+    <string name="t_0995">0995 هل تم قبول استمارة الموافقة والتوقيع عليها/ او تم الرفض ولم يتم التوقيع؟</string>
+    <string name="t_0995_1">تمت المعاينة وقام بالموافقة</string>
+    <string name="t_0995_2">تمت المعاينة ولم يقم بالتوقيع</string>
+    <string name="t_0995_3">أعطت بعض البيانات</string>
+    <string name="t_0995_4">متغيب مؤقتا</string>
+    <string name="t_0995_5">المسكن تحت التشييد</string>
+    <string name="t_0995_6">المسكن مشغول بعمل</string>
+    <string name="t_0995_7">المسكن أزيل أو مهجور</string>
+    <string name="t_0995_8">ضم إلى مسكن آخر</string>
+    <string name="t_0995_9">رفض التعاون</string>
+    <string name="t_0995_10">أخرى</string>
+
+    <string name="t_0995a">في حال الرفض أو عدم التوقيع: ما هو السبب</string>
+    <string name="t_0996">0996 الاسم الأول للمستجيب</string>
+    <string name="t_0997">0997 رقم جوال المستجيب</string>
+
+    <string name="submit">تقديم</string>
+
+    <string-array name="person_type_array">
+        <item>1- رب أسرة</item>
+        <item>2- ربة أسرة</item>
+        <item>3- ذكر بالغ مستقل</item>
+        <item>4- أنثى بالغة مستقلة</item>
+    </string-array>
+
+    <string name="invalid_input">المدخلات غير صالحة</string>
+    <string name="title_activity_maps">Maps</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyAI-m82NUB8FYGonQi1CT8kWkiDmiE1yi4
+    </string>
+    <string name="enable_gps">من فضلك فعل خدمة تحديد الموقع</string>
+
+</resources>

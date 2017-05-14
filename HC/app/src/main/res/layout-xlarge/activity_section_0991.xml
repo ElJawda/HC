@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="@dimen/padding_xxx">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <com.shc.SHC_SS.views.HCBoldTextViewN
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="@dimen/padding_"
+            android:text="@string/sample_title"
+            android:textColor="@color/maroo"
+            android:textStyle="bold" />
+
+        <com.shc.SHC_SS.views.HCBoldTextViewN
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="@dimen/padding_"
+            android:text="@string/sample_sub_title"
+            android:textColor="@color/maroo"
+            android:textStyle="normal" />
+
+        <com.shc.SHC_SS.views.HCBoldTextViewN
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="@dimen/padding_"
+            android:text="@string/household_title"
+            android:textColor="@color/question_color" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_houseHold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:gravity="right|end"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_"
+            android:weightSum="5">
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/household_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/household_0"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp" />
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/household_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/household_1"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp" />
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/household_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/household_2"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp" />
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/household_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/household_3"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp" />
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/household_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/household_4"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp" />
+
+        </RadioGroup>
+
+        <com.shc.SHC_SS.views.HCBoldTextViewN
+            android:id="@+id/tv_0992"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_"
+            android:text="@string/title_0992"
+            android:textColor="@color/question_color" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_0992"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:gravity="right|end"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_"
+            android:weightSum="2">
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/radio_button_0992_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/t_0992_0"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp" />
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/radio_button_0992_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/t_0992_1"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp" />
+
+        </RadioGroup>
+
+        <com.shc.SHC_SS.views.HCBoldTextViewN
+            android:id="@+id/tv_0993"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_"
+            android:text="@string/title_0993"
+            android:textColor="@color/question_color" />
+
+        <TableLayout
+            android:id="@+id/table_0993"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:padding="@dimen/padding_">
+
+            <TableRow
+                android:id="@+id/row_0"
+                style="@style/TableRow">
+
+                <com.shc.SHC_SS.views.HCBoldTextViewN
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:text="الحالة"
+                    android:textColor="@color/question_color" />
+
+                <com.shc.SHC_SS.views.HCBoldTextViewN
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:text="الاسم"
+                    android:textColor="@color/question_color" />
+
+                <com.shc.SHC_SS.views.HCBoldTextViewN
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="الرقم"
+                    android:textColor="@color/question_color" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_1"
+                style="@style/TableRow">
+
+                <Spinner
+                    android:id="@+id/spinner_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+
+                <com.shc.SHC_SS.views.HCEditTextN
+                    android:id="@+id/edit_1"
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right|end" />
+
+                <com.shc.SHC_SS.views.HCTextViewN
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|end"
+                    android:text="1" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_2"
+                style="@style/TableRow">
+
+                <Spinner
+                    android:id="@+id/spinner_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+
+                <com.shc.SHC_SS.views.HCEditTextN
+                    android:id="@+id/edit_2"
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right|end" />
+
+                <com.shc.SHC_SS.views.HCTextViewN
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|end"
+                    android:text="2" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_3"
+                style="@style/TableRow">
+
+                <Spinner
+                    android:id="@+id/spinner_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+
+                <com.shc.SHC_SS.views.HCEditTextN
+                    android:id="@+id/edit_3"
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right|end" />
+
+                <com.shc.SHC_SS.views.HCTextViewN
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|end"
+                    android:text="3" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_4"
+                style="@style/TableRow">
+
+                <Spinner
+                    android:id="@+id/spinner_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+
+                <com.shc.SHC_SS.views.HCEditTextN
+                    android:id="@+id/edit_4"
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right|end" />
+
+                <com.shc.SHC_SS.views.HCTextViewN
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|end"
+                    android:text="4" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_5"
+                style="@style/TableRow">
+
+                <Spinner
+                    android:id="@+id/spinner_5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+
+                <com.shc.SHC_SS.views.HCEditTextN
+                    android:id="@+id/edit_5"
+                    style="@style/TableColumn"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right|end" />
+
+                <com.shc.SHC_SS.views.HCTextViewN
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|end"
+                    android:text="5" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_6"
+                style="@style/TableRow">
+
+                <Spinner
+                    android:id="@+id/spinner_6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+
+                <com.shc.SHC_SS.views.HCEditTextN
+                    android:id="@+id/edit_6"
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right|end" />
+
+                <com.shc.SHC_SS.views.HCTextViewN
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|end"
+                    android:text="6" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_7"
+                style="@style/TableRow">
+
+                <Spinner
+                    android:id="@+id/spinner_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+
+                <com.shc.SHC_SS.views.HCEditTextN
+                    android:id="@+id/edit_7"
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right|end" />
+
+                <com.shc.SHC_SS.views.HCTextViewN
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|end"
+                    android:text="7" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_8"
+                style="@style/TableRow">
+
+                <Spinner
+                    android:id="@+id/spinner_8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+
+                <com.shc.SHC_SS.views.HCEditTextN
+                    android:id="@+id/edit_8"
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right|end" />
+
+                <com.shc.SHC_SS.views.HCTextViewN
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|end"
+                    android:text="8" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_9"
+                style="@style/TableRow">
+
+                <Spinner
+                    android:id="@+id/spinner_9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+
+                <com.shc.SHC_SS.views.HCEditTextN
+                    android:id="@+id/edit_9"
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right|end" />
+
+                <com.shc.SHC_SS.views.HCTextViewN
+                    style="@style/TableColumn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|end"
+                    android:text="9" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_0994"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:gravity="right|end"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_">
+
+            <com.shc.SHC_SS.views.HCEditTextN
+                android:id="@+id/edt_0994"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|end|center_vertical"
+                android:layout_marginRight="30dp"
+                android:hint=" الرجاء اضافة الشخص الذى  تم  اختياره "
+                android:inputType="number"
+                android:maxLines="1" />
+
+            <com.shc.SHC_SS.views.HCBoldTextViewN
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|end|center_vertical"
+                android:text="@string/t_0994"
+                android:textColor="@color/question_color"
+                android:textSize="@dimen/textSize_21sp" />
+        </LinearLayout>
+
+        <com.shc.SHC_SS.views.HCBoldTextViewN
+            android:id="@+id/tv_0995"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_"
+            android:text="@string/t_0995"
+            android:textColor="@color/question_color" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_0995"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:gravity="right|end"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_"
+            android:weightSum="10">
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/radio_button_0995_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/t_0995_1"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp" />
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/radio_button_0995_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/t_0995_2"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp"
+                android:visibility="gone" />
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/radio_button_0995_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/t_0995_3"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp" />
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/radio_button_0995_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/t_0995_4"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp" />
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/radio_button_0995_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/t_0995_5"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp" />
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/radio_button_0995_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/t_0995_6"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp" />
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/radio_button_0995_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/t_0995_7"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp" />
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/radio_button_0995_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/t_0995_8"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp" />
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/radio_button_0995_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/t_0995_9"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp" />
+
+            <com.shc.SHC_SS.views.CustomRaidoButtonN
+                android:id="@+id/radio_button_0995_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:gravity="right|end|center_vertical"
+                android:text="@string/t_0995_10"
+                android:textColor="@color/reply_color"
+                android:textSize="@dimen/textSize_21sp" />
+
+        </RadioGroup>
+
+        <com.shc.SHC_SS.views.HCEditTextN
+            android:id="@+id/edit_0995"
+            android:layout_width="@dimen/name_phone_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:gravity="right|end|center_vertical"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="@dimen/padding_" />
+
+        <LinearLayout
+            android:id="@+id/linear_layout_0995a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:gravity="right|end"
+            android:orientation="horizontal"
+            android:padding="@dimen/inner_spacing"
+            android:visibility="gone">
+
+            <com.shc.SHC_SS.views.HCEditTextN
+                android:id="@+id/edt_0995a"
+                android:layout_width="@dimen/name_phone_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|end|center_vertical"
+                android:gravity="right|end|center_vertical"
+                android:inputType="text"
+                android:maxLines="1" />
+
+            <com.shc.SHC_SS.views.HCTextViewN
+                android:layout_width="@dimen/name_phone_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|end|center_vertical"
+                android:text="@string/t_0995a" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_0996"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:gravity="right|end"
+            android:orientation="horizontal"
+            android:padding="@dimen/inner_spacing">
+
+            <com.shc.SHC_SS.views.HCEditTextN
+                android:id="@+id/edt_0996"
+                android:layout_width="@dimen/name_phone_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|end|center_vertical"
+                android:gravity="right|end|center_vertical"
+                android:inputType="textPersonName"
+                android:maxLines="1" />
+
+            <com.shc.SHC_SS.views.HCBoldTextViewN
+                android:layout_width="@dimen/name_phone_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|end|center_vertical"
+                android:text="@string/t_0996"
+                android:textColor="@color/question_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_0997"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:gravity="right|end"
+            android:orientation="horizontal"
+            android:padding="@dimen/inner_spacing">
+
+            <com.shc.SHC_SS.views.HCEditTextN
+                android:id="@+id/edt_0997"
+                android:layout_width="@dimen/name_phone_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|end|center_vertical"
+                android:gravity="right|end|center_vertical"
+                android:inputType="phone"
+                android:maxLines="1" />
+
+            <com.shc.SHC_SS.views.HCBoldTextViewN
+                android:layout_width="@dimen/name_phone_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|end|center_vertical"
+                android:text="@string/t_0997"
+                android:textColor="@color/question_color" />
+        </LinearLayout>
+
+        <com.shc.SHC_SS.views.HCButtonN
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="@string/submit" />
+    </LinearLayout>
+
+</ScrollView>

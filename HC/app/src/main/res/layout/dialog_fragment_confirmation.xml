@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.shc.SHC_SS.views.HCBoldTextViewN
+        android:id="@+id/tv_confirmation_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="@dimen/inner_spacing"
+        android:gravity="center"
+        android:padding="@dimen/inner_spacing"
+        android:text="تحذير: سيتم فقد إجابات هذا الاستبيان .. هل تريد الاستمرار؟"
+        android:textColor="@color/question_color" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/inner_spacing"
+        android:orientation="horizontal"
+        android:padding="@dimen/inner_spacing"
+        android:weightSum="2">
+
+        <com.shc.SHC_SS.views.HCButtonN
+            android:id="@+id/btn_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="نعم"
+            android:textColor="#000" />
+
+        <com.shc.SHC_SS.views.HCButtonN
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="إلغاء"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+</LinearLayout>

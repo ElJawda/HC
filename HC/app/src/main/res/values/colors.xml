@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1a643c</color>
+    <color name="colorPrimaryDark">#1a643c</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="question_color">#49a746</color>
+    <color name="reply_color">#000</color>
+    <color name="start_color">#1a643c</color>
+    <color name="center_color">#49a746</color>
+    <color name="end_color">#145a38</color>
+    <color name="gray">#eeee</color>
+    <color name="white">#ffff</color>
+    <color name="maroo">#FF923740</color>
+
+</resources>
