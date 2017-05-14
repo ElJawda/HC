@@ -17,7 +17,6 @@ public class AgreementActivity extends AppCompatActivity {
 
     HtmlTextView textView;
     Button mNextButton;
-    // agreement text 
     String introductionHtmlText = "<p dir=\"rtl\"><span style=\"font-size: large;\"><strong style=\"font-size: large;\"> &nbsp;المقدمة:</strong></span></p>\n" +
             "<p dir=\"rtl\"><strong>عزيزي المشارك / عزيزتي المشاركة:</strong></p>\n" +
             "<p dir=\"rtl\"><strong><br /> تم اختيار المشاركين في هذه الدراسة من مختلف مناطق المملكة العربية السعودية باستخدام طريقة علمية، بهدف إجراء المقابلة الشخصية باستخدام استبيان أعده المجلس الصحي السعودي وفقا للمنهجية التي وضعتها منظمة الصحة العالمية لقياس استجابة النظام الصحي وطبقتها في مختلف دول العالم.<br /> يقوم بإجراء المقابلات الشخصية متخصصون تم استقطابهم من عدة جهات لجمع بيانات الدراسة.<br /> المعلومات التي تقدمها لنا ستستخدم لقياس العوامل المؤثرة على استجابة النظام الصحي في المملكة.</strong></p>\n" +
