@@ -25,6 +25,8 @@ import java.util.ArrayList;
 
 public class ChildAdapter extends RecyclerView.Adapter<ChildAdapter.CustomViewHolder> {
     //  Context context;
+
+    // test  child  adapter
     CustomViewHolder holder;
     JSONArray jsonArray;
     ArrayList<String> arrayLists = new ArrayList<String>();
