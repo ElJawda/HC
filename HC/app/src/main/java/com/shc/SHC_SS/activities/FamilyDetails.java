@@ -487,8 +487,9 @@ public class FamilyDetails extends Activity implements
 
     void loadRegionAdapter() {
         region_number.clear();
-        region_number = new ArrayList<String>(Arrays.asList(HCApplication.mydb.getAllCotacts(TABLE_Region, COLUMN_Region_code).toString().replace("[[", "").replace("]]", "").split(",")));
         dataAdapter.clear();
+        region_number = new ArrayList<String>(Arrays.asList(HCApplication.mydb.getAllCotacts(TABLE_Region, COLUMN_Region_code).toString().replace("[[", "").replace("]]", "").split(",")));
+
 
         dataAdapter = new ArrayAdapter<String>(context, R.layout.spinner_item, region_number);
         num_region.setAdapter(dataAdapter);
@@ -859,12 +860,10 @@ public class FamilyDetails extends Activity implements
 
 void AllDataNumber() {
     try {
-        all_item.setText(HCApplication.mydb.getAllCotacts(TABLE_NAME,COLUMN_NAME).size()+"");
+
         not_upload.setText( HCApplication.mydb.getColumnNameandValue(TABLE_NAME, 1).length()+"");
         upload_.setText(HCApplication.mydb.getColumnNameandValue(TABLE_NAME, 0).length()+"");
-
-//        Toast.makeText(HCApplication.context,"not upload"+ HCApplication.mydb.getColumnNameandValue(TABLE_NAME, 1).length(),Toast.LENGTH_LONG).show();
-//        Toast.makeText(HCApplication.context,"upload"+ HCApplication.mydb.getColumnNameandValue(TABLE_NAME, 0).length(),Toast.LENGTH_LONG).show();
+        all_item.setText(HCApplication.mydb.getAllCotacts(TABLE_NAME,COLUMN_NAME).size()+"");
 
     } catch (JSONException e) {
         e.printStackTrace();
