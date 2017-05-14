@@ -486,9 +486,10 @@ public class FamilyDetails extends Activity implements
     }
 
     void loadRegionAdapter() {
+        region_number.clear();
         region_number = new ArrayList<String>(Arrays.asList(HCApplication.mydb.getAllCotacts(TABLE_Region, COLUMN_Region_code).toString().replace("[[", "").replace("]]", "").split(",")));
         dataAdapter.clear();
-        region_number.clear();
+
         dataAdapter = new ArrayAdapter<String>(context, R.layout.spinner_item, region_number);
         num_region.setAdapter(dataAdapter);
     }
